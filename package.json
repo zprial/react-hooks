@@ -1,9 +1,12 @@
 {
-  "name": "react-hooks",
+  "name": "use-react-hook",
   "version": "0.1.0",
   "description": "react hooks",
   "main": "dist/index.js",
-  "files": ["dist"],
+  "files": [
+    "dist",
+    "src"
+  ],
   "scripts": {
     "build": "rm -rf dist && tsc"
   },
@@ -25,6 +28,7 @@
   "devDependencies": {
     "@types/react": "^16.8.14",
     "parcel-bundler": "^1.12.3",
-    "typescript": "^3.4.5"
+    "typescript": "^3.4.5",
+    "use-react-hook": "^0.1.0"
   }
 }
