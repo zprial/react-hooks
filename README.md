@@ -5,13 +5,13 @@ Some usefule react-hooks
 ## Install
 
 ```
- npm install --save use-react-hook
+ npm install --save @zprial/react-hooks
 ```
 
 ## Usage
 
 ```js
- import { useMeasure } from 'use-react-hook'
+ import { useMeasure } from '@zprial/react-hooks'
 ```
 
 ## Hooks
