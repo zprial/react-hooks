@@ -1,0 +1,30 @@
+{
+  "name": "react-hooks",
+  "version": "0.1.0",
+  "description": "react hooks",
+  "main": "dist/index.js",
+  "files": ["dist"],
+  "scripts": {
+    "build": "rm -rf dist && tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zprial/react-hooks.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zprial/react-hooks/issues"
+  },
+  "homepage": "https://github.com/zprial/react-hooks#readme",
+  "dependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "resize-observer-polyfill": "^1.5.1"
+  },
+  "devDependencies": {
+    "@types/react": "^16.8.14",
+    "parcel-bundler": "^1.12.3",
+    "typescript": "^3.4.5"
+  }
+}
